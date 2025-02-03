@@ -1,5 +1,5 @@
 // Hardcoded array of 5 users
-const users = [
+export const users = [
 	{
 		_id: "1",
 		username: "user1",
@@ -95,6 +95,3 @@ const transactions = [
 		date: "2024-01-05",
 	},
 ];
-
-// Export the arrays
-export { users, transactions };
